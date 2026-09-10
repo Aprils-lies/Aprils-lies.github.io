@@ -3,17 +3,23 @@
   GitHub Profile README（Aprils-lies）
   ----------------------------------------------------------------------------
   使用方法：
-    1. 新建一个与你 GitHub 用户名完全同名的公开仓库（Aprils-lies / Aprils-lies）
+    1. 新建一个与你 GitHub 用户名完全同名的公开仓库（如 Aprils-lies/Aprils-lies）
     2. 把本文件内容放进该仓库的 README.md 并提交
     3. 你的 GitHub 个人主页就会渲染出下面的内容
   ----------------------------------------------------------------------------
   【换成自己的账号】把文中所有 Aprils-lies 全局替换为你的用户名即可。
 
+  卡片数据来源：
+    - 连续打卡：streak-stats.demolab.com（直连可用）
+    - 贡献分布：ghchart.rshah.org（直连可用）
+    - 语言统计 / 31 天贡献趋势：本仓库 assets/ 下的 SVG，
+      通过 jsDelivr（国内可访问）引用；每天由 GitHub Actions 自动刷新。
+  ============================================================================
 -->
 
 <h1 align="center">你好，我是 April 👋</h1>
 
-<!-- 10. 打字特效（readme-typing-svg） -->
+<!-- 打字特效 -->
 <div align="center">
   <a href="https://github.com/Aprils-lies">
     <img src="https://readme-typing-svg.demolab.com/?font=monospace&size=24&duration=3200&pause=1200&color=F4568F&center=true&vCenter=true&width=620&height=60&lines=console.log(%22Hello%2C%20World!%22);Aprils-lies%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%20GitHub%20%E4%B8%BB%E9%A1%B5;%E7%83%AD%E7%88%B1%E5%89%8D%E7%AB%AF%E7%89%B9%E6%95%88%E4%B8%8E%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1" alt="打字特效" />
@@ -24,39 +30,35 @@
 
 ### 📊 数据概览
 
-<!-- 2. GitHub 统计卡片  +  8. GitHub 连续打卡 -->
+<!-- 连续打卡 + 贡献分布图 -->
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Aprils-lies&show_icons=true&rank_icon=github&hide_border=true&include_all_commits=true&count_private=true&theme=radical" alt="GitHub 统计卡片" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Aprils-lies&hide_border=true&theme=radical" alt="GitHub 连续打卡" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=Aprils-lies&hide_border=true&theme=radical" alt="GitHub 连续打卡" />
+  <img height="165" src="https://ghchart.rshah.org/f4568f/Aprils-lies" alt="GitHub 贡献分布热力图" />
 </div>
 
 ---
 
 ### 🛠 技术画像
 
-<!-- 3. GitHub 使用语言统计  +  4. Github Profile Trophy -->
+<!-- 语言统计：由本仓库 GitHub Actions 每天生成 SVG，通过 jsDelivr 分发 -->
 <div align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aprils-lies&layout=compact&langs_count=8&hide_border=true&theme=radical" alt="GitHub 使用语言统计" />
-</div>
-
-<div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=Aprils-lies&theme=radical&no-frame=true&column=4&margin-w=6&margin-h=6" alt="GitHub 资料奖杯" />
+  <img width="100%" src="https://cdn.jsdelivr.net/gh/Aprils-lies/Aprils-lies.github.io@main/assets/top-langs.svg" alt="GitHub 使用语言统计" />
 </div>
 
 ---
 
 ### 📈 活动统计图
 
-<!-- 7. GitHub Readme Activity Graph -->
+<!-- 31 天贡献趋势：由本仓库 GitHub Actions 每天生成 SVG，通过 jsDelivr 分发 -->
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Aprils-lies&hide_border=true&theme=react-dark&area=true&area_color=f4568f&line=f4568f&point=ffa8c8" alt="GitHub 活动统计图" />
+  <img width="100%" src="https://cdn.jsdelivr.net/gh/Aprils-lies/Aprils-lies.github.io@main/assets/activity.svg" alt="GitHub 最近 31 天贡献趋势" />
 </div>
 
 ---
 
 ### 🧰 技术栈徽章
 
-<!-- 5. Shields 徽章：按你实际会的技术增删 -->
+<!-- 按你实际会的技术增删 -->
 <div align="center">
   <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
@@ -69,7 +71,7 @@
 
 ---
 
-<!-- 6. 访客徽章：原 visitor-badge.glitch.me 已下线，改用 komarev -->
+<!-- 访客徽章：原 visitor-badge.glitch.me 已下线，改用 komarev -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Aprils-lies&label=Profile+Views&color=f4568f&style=flat-square" alt="访客计数" />
 </div>
@@ -87,10 +89,10 @@
 
   <picture>
     <source media="(prefers-color-scheme: dark)"
-            src="https://github-readme-stats.vercel.app/api?username=Aprils-lies&theme=radical" />
+            src="https://streak-stats.demolab.com/?user=Aprils-lies&hide_border=true&theme=radical" />
     <source media="(prefers-color-scheme: light)"
-            src="https://github-readme-stats.vercel.app/api?username=Aprils-lies&theme=default" />
-    <img src="https://github-readme-stats.vercel.app/api?username=Aprils-lies&theme=default" />
+            src="https://streak-stats.demolab.com/?user=Aprils-lies&hide_border=true&theme=default" />
+    <img src="https://streak-stats.demolab.com/?user=Aprils-lies&hide_border=true&theme=default" />
   </picture>
   ============================================================================
 -->
