@@ -23,8 +23,8 @@
 <!-- ========== 全局配置：改这里就够了 ========== -->
 <script>
   window.GH = {
-    username: "四月是你的谎言",
-    displayName: "四月是你的谎言",
+    username: "Aprils-lies",
+    displayName: "Aprils-lies",
     // 打字特效轮播的文案
     typingLines: [
       "console.log('Hello, World!')",
@@ -453,10 +453,10 @@ a { color: var(--sakura-300); text-decoration: none; }
 .card__fallback strong { color: var(--warn); font-size: var(--t-sm); }
 .card__fallback a { color: var(--sakura-300); text-decoration: underline; }
 
-/* 语言统计卡片用窄一点的比例 */
-.card--langs .card__media { --ar: 340 / 195; }
-.card--trophy .card__media { --ar: 900 / 130; }
-.card--graph  .card__media { --ar: 900 / 280; }
+/* 卡片宽高比 */
+.card--langs     .card__media { --ar: 900 / 240; }
+.card--calendar  .card__media { --ar: 640 / 160; }
+.card--graph     .card__media { --ar: 900 / 280; }
 
 /* ==========================================================================
    6. 页脚
@@ -570,27 +570,13 @@ a { color: var(--sakura-300); text-decoration: none; }
   <!-- ==================== 主体 ==================== -->
   <main class="wrap" id="main" data-page-node-id="j9jti9ntvo5D6UcGfe7197">
 
-    <!-- 统计卡片 + 连续打卡 -->
+    <!-- 连续打卡 + 贡献分布 -->
     <section class="section" aria-labelledby="s1" data-page-node-id="7kOvyMY82YwXBvfao2WHHS">
       <div class="section__head" data-page-node-id="ndt4l0i5UuBCQ3yEPVzjld">
         <h2 id="s1" data-page-node-id="0cGjGOd2Gw6v6v2zxzXMhe">数据概览</h2>
         <span data-page-node-id="0OqaRAoyFAo9kknjBu2k4b">Overview</span>
       </div>
       <div class="grid" data-page-node-id="dhImQTKlgFoLegk26MmpaV">
-
-        <article class="card" data-page-node-id="n9GHj7uusz1FmSMCFTfUZI">
-          <h3 class="card__title" data-page-node-id="D1jLAObBbGDYeu4B3ntFf3"><i data-page-node-id="BFfJXn7fchITmjJZHm33m9"></i>GitHub 统计卡片<em data-page-node-id="IeDR8mw0N7iDeFsilOCBy1">Stats Card</em></h3>
-          <div class="card__media" data-page-node-id="1OTM0kbhceid9JHS2d7Jtm">
-            <img src="https://github-readme-stats.vercel.app/api?username=Aprils-lies&show_icons=true&rank_icon=github&hide_border=true&include_all_commits=true&count_private=true&bg_color=150e1c&title_color=f4568f&text_color=c4b8d6&icon_color=ffa8c8"
-                 alt="Aprils-lies 的 GitHub 统计卡片：提交总数、Star、PR、Issue 等"
-                 loading="lazy" decoding="async" data-page-node-id="bH91FTpOZ0g5uZzqZ6RqYE">
-            <div class="card__fallback" hidden data-page-node-id="4Rs2X4tGaBoar4qqSali6i">
-              <strong data-page-node-id="ns9hRfRaET9CRzp0BCCp9H">统计卡片加载失败</strong>
-              <span data-page-node-id="Bdn1EpOG8UYXtOwyX5WiaC">该服务（github-readme-stats）可能正在限流或暂时不可用</span>
-              <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener" data-page-node-id="jzwHN12siez9hlywQGdrqh">查看服务状态</a>
-            </div>
-          </div>
-        </article>
 
         <article class="card" data-page-node-id="ejPlpYNUzoMVHhRyBBWZYS">
           <h3 class="card__title" data-page-node-id="DpjroPEOK8zFRzJ19Yhlry"><i data-page-node-id="sl5pXAwYH3PxfpuuvylDf1"></i>GitHub 连续打卡<em data-page-node-id="FR7ScwuA9OqFtHw9FIf5yi">Streak</em></h3>
@@ -606,41 +592,40 @@ a { color: var(--sakura-300); text-decoration: none; }
           </div>
         </article>
 
-      </div>
-    </section>
-
-    <!-- 语言统计 + 资料奖杯 -->
-    <section class="section" aria-labelledby="s2" data-page-node-id="OQENa40POarWE7RNazNHVx">
-      <div class="section__head" data-page-node-id="FKoNvWhXilGqcICbIDsSV4">
-        <h2 id="s2" data-page-node-id="jutE9FNTlCIFYlwvID6sl2">技术画像</h2>
-        <span data-page-node-id="ZsTgY13DS6OpTt4mC6AXf4">Languages &amp; Trophies</span>
-      </div>
-      <div class="grid" data-page-node-id="BJjFvyqzCg9jxeEtFdh9Ju">
-
-        <article class="card card--langs" data-page-node-id="YXAtYqZWPVGpCNjjllRzPR">
-          <h3 class="card__title" data-page-node-id="tvcLroIHgY4iud5YPmSWhl"><i data-page-node-id="T6bsTToFZmHtKXdpnexqZa"></i>GitHub 使用语言统计<em data-page-node-id="Yl3yAng4S0L1ATWT6Xv0hO">Top Languages</em></h3>
-          <div class="card__media" data-page-node-id="vRYRXz43MN8AINxEbBU9ur">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aprils-lies&layout=compact&langs_count=8&hide_border=true&bg_color=150e1c&title_color=f4568f&text_color=c4b8d6"
-                 alt="Aprils-lies 最常使用的编程语言占比统计"
-                 loading="lazy" decoding="async" data-page-node-id="XbCAppDnVog24s9Aczdgfy">
-            <div class="card__fallback" hidden data-page-node-id="lxaNPJFQDO8GQyiIWtkQvL">
-              <strong data-page-node-id="WIvHUE8kUnYxGfKNu2Dt6d">语言统计加载失败</strong>
-              <span data-page-node-id="QzTXdD6EZeE63lbsW8GM2r">该服务（github-readme-stats）可能正在限流或暂时不可用</span>
-              <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener" data-page-node-id="9C5NVYdFcWRwxDzlLR8KD8">查看服务状态</a>
+        <article class="card card--calendar" data-page-node-id="calCard001">
+          <h3 class="card__title" data-page-node-id="calTitle001"><i data-page-node-id="calDot001"></i>GitHub 贡献分布<em data-page-node-id="calEn001">Contribution Calendar</em></h3>
+          <div class="card__media" data-page-node-id="calMedia001">
+            <img alt="Aprils-lies 的 GitHub 贡献分布热力图"
+                 data-card="calendar" decoding="async" data-page-node-id="calImg001">
+            <div class="card__fallback" hidden data-page-node-id="calFb001">
+              <strong data-page-node-id="calFbStrong001">贡献分布加载失败</strong>
+              <span data-page-node-id="calFbSpan001">无法获取贡献数据（github-contributions-api 可能不可用）</span>
+              <a href="https://github.com/Aprils-lies" target="_blank" rel="noopener" data-page-node-id="calFbLink001">在 GitHub 上查看贡献</a>
             </div>
           </div>
         </article>
 
-        <article class="card card--trophy" data-page-node-id="92UMhBxGYHqLqbExMyaA7L">
-          <h3 class="card__title" data-page-node-id="uVSKPbxrageKcUAlQJ4dQB"><i data-page-node-id="dKXjHty7DfOss3CNwLOfcE"></i>GitHub 资料奖杯<em data-page-node-id="3cZ211WdConHzi4R1H1H1s">Trophy</em></h3>
-          <div class="card__media" data-page-node-id="qZkeBWQQjoZj8EdCDhH2K3">
-            <img src="https://github-profile-trophy.vercel.app/?username=Aprils-lies&theme=radical&no-bg=true&no-frame=true&column=4&margin-w=6&margin-h=6"
-                 alt="Aprils-lies 的 GitHub 成就奖杯"
-                 loading="lazy" decoding="async" data-page-node-id="K8IRwLj4km0U6zh0VQaozx">
-            <div class="card__fallback" hidden data-page-node-id="RDTg6nkQIPZitgR6cXTaPj">
-              <strong data-page-node-id="i4Ep8UjKsBD3NURdhz2iIA">奖杯卡片加载失败</strong>
-              <span data-page-node-id="6pIuHCHfQeqkTEJuA65M9c">该服务（github-profile-trophy）可能正在限流或暂时不可用</span>
-              <a href="https://github.com/ryo-ma/github-profile-trophy" target="_blank" rel="noopener" data-page-node-id="MDq3bCzZPuN4lDfmptCFmn">查看服务状态</a>
+      </div>
+    </section>
+
+    <!-- 使用语言统计 -->
+    <section class="section" aria-labelledby="s2" data-page-node-id="OQENa40POarWE7RNazNHVx">
+      <div class="section__head" data-page-node-id="FKoNvWhXilGqcICbIDsSV4">
+        <h2 id="s2" data-page-node-id="jutE9FNTlCIFYlwvID6sl2">技术画像</h2>
+        <span data-page-node-id="langSub001">Languages</span>
+      </div>
+      <div class="grid grid--full" data-page-node-id="BJjFvyqzCg9jxeEtFdh9Ju">
+
+        <article class="card card--langs" data-page-node-id="YXAtYqZWPVGpCNjjllRzPR">
+          <h3 class="card__title" data-page-node-id="tvcLroIHgY4iud5YPmSWhl"><i data-page-node-id="T6bsTToFZmHtKXdpnexqZa"></i>GitHub 使用语言统计<em data-page-node-id="Yl3yAng4S0L1ATWT6Xv0hO">Most Used Languages</em></h3>
+          <div class="card__media" data-page-node-id="vRYRXz43MN8AINxEbBU9ur">
+            <!-- 无可用镜像，改为用 GitHub REST API 取仓库语言数据后本地绘制 SVG -->
+            <img alt="Aprils-lies 最常使用的编程语言统计"
+                 data-card="langs" decoding="async" data-page-node-id="XbCAppDnVog24s9Aczdgfy">
+            <div class="card__fallback" hidden data-page-node-id="lxaNPJFQDO8GQyiIWtkQvL">
+              <strong data-page-node-id="WIvHUE8kUnYxGfKNu2Dt6d">语言统计加载失败</strong>
+              <span data-page-node-id="QzTXdD6EZeE63lbsW8GM2r">无法从 GitHub API 读取仓库语言数据（多为接口限流）</span>
+              <a href="https://github.com/Aprils-lies?tab=repositories" target="_blank" rel="noopener" data-page-node-id="9C5NVYdFcWRwxDzlLR8KD8">在 GitHub 上查看仓库</a>
             </div>
           </div>
         </article>
@@ -658,13 +643,13 @@ a { color: var(--sakura-300); text-decoration: none; }
         <article class="card card--graph" data-page-node-id="EndhINkgk5Pk9SfVPlX7Fk">
           <h3 class="card__title" data-page-node-id="myijVZyfpN0dDmn5XgHgib"><i data-page-node-id="BJLkPjG9eQWnoGsuB6oYHm"></i>最近 31 天的贡献趋势<em data-page-node-id="i3M3YqTheNAnsi5SGiMo5d">Last 31 days</em></h3>
           <div class="card__media" data-page-node-id="NfRs6FDW7vAKo3tbtzaKtf">
-            <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aprils-lies&bg_color=150e1c&color=c4b8d6&title_color=f4568f&line=f4568f&point=ffa8c8&area=true&area_color=f4568f&hide_border=true&days=31"
-                 alt="Aprils-lies 最近 31 天的 GitHub 贡献活动曲线图"
-                 loading="lazy" decoding="async" data-page-node-id="GvuzinthwqLKralUeBJsWZ">
+            <!-- 无可用镜像，改为用公开贡献数据接口取最近 31 天后本地绘制 SVG -->
+            <img alt="Aprils-lies 最近 31 天的 GitHub 贡献活动曲线图"
+                 data-card="activity" decoding="async" data-page-node-id="GvuzinthwqLKralUeBJsWZ">
             <div class="card__fallback" hidden data-page-node-id="yA0OZX7EZwJIRf1ylUCwWq">
               <strong data-page-node-id="4RH0V2218TAvAVEgcahrIC">活动图加载失败</strong>
-              <span data-page-node-id="QDO0r90G6d0pckcEm0AcFY">该服务（github-readme-activity-graph）可能正在限流或暂时不可用</span>
-              <a href="https://github.com/Ashutosh00710/github-readme-activity-graph" target="_blank" rel="noopener" data-page-node-id="d51epWBUuMtUOHIdBM8f2g">查看服务状态</a>
+              <span data-page-node-id="QDO0r90G6d0pckcEm0AcFY">无法获取贡献数据（github-contributions-api 可能不可用）</span>
+              <a href="https://github.com/Aprils-lies" target="_blank" rel="noopener" data-page-node-id="d51epWBUuMtUOHIdBM8f2g">在 GitHub 上查看贡献</a>
             </div>
           </div>
         </article>
@@ -678,9 +663,9 @@ a { color: var(--sakura-300); text-decoration: none; }
     <div class="footer__actions" data-page-node-id="DPD9HPMgVSjKAOVd140BEJ">
       <button class="btn" type="button" id="reload-cards" data-page-node-id="YgoFQX9UOxjJeKjqw0PTUt">重新加载全部卡片</button>
     </div>
-    <p data-page-node-id="QeZevf5x5Otj0eqgYre47j">数据由 <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener" data-page-node-id="X2qp3dqpLVe7dsd0hByJtc">github-readme-stats</a>、
-       <a href="https://github.com/DenverCoder1/github-readme-streak-stats" target="_blank" rel="noopener" data-page-node-id="emQ8L3tAHgRgz60QIyZoCs">streak-stats</a>、
-       <a href="https://github.com/Ashutosh00710/github-readme-activity-graph" target="_blank" rel="noopener" data-page-node-id="UuKEmH5kqMzZF0DJ0SNfGj">activity-graph</a> 等开源服务实时提供</p>
+    <p data-page-node-id="QeZevf5x5Otj0eqgYre47j">数据由 <a href="https://github.com/DenverCoder1/github-readme-streak-stats" target="_blank" rel="noopener" data-page-node-id="emQ8L3tAHgRgz60QIyZoCs">streak-stats</a>、
+       <a href="https://github.com/jogruber/github-contributions-api" target="_blank" rel="noopener" data-page-node-id="contribApi001">github-contributions-api</a> 与
+       <a href="https://api.github.com" target="_blank" rel="noopener">GitHub REST API</a> 提供；语言统计、贡献分布与 31 天贡献趋势由页面本地绘制</p>
     <p data-page-node-id="NalKnehYhW1wqU8XmZ0w1s">背景：樱花 WebGL 粒子特效 · 使用 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API" target="_blank" rel="noopener" data-page-node-id="pxC1rYQzbX274Xfxhbw33g">WebGL</a> 渲染</p>
   </footer>
 
@@ -1731,51 +1716,431 @@ void main(void) {
     if (el && v !== undefined && v !== null) { el.textContent = v; }
   }
 
-  /* ---------------- 4. 卡片容错：失败重试一次，再失败显示兜底 ---------------- */
+  /* ---------------- 4. 卡片：换源加载 + 超时兜底 + 本地绘制 ---------------- */
+  var CARD_TIMEOUT = 12000;    // 单次图片/接口等待上限，超时即视为失败
+  var CACHE_TTL = 30 * 60000;  // 接口结果缓存 30 分钟，省着用未登录的 60 次/小时配额
+
+  function cardBox(el) { return (el && el.closest) ? el.closest('.card__media') : null; }
+
+  function cardLoaded(img) {
+    var box = cardBox(img);
+    if (box) { box.classList.add('is-loaded'); box.classList.remove('is-error'); }
+  }
+
+  function cardFailed(img) {
+    var box = cardBox(img);
+    if (!box) return;
+    box.classList.add('is-error');
+    img.style.display = 'none';
+    var fb = box.querySelector('.card__fallback');
+    if (fb) fb.hidden = false;
+  }
+
+  function cardReset(img) {
+    var box = cardBox(img);
+    if (box) box.classList.remove('is-loaded', 'is-error');
+    var fb = box ? box.querySelector('.card__fallback') : null;
+    if (fb) fb.hidden = true;
+    img.style.display = '';
+  }
+
+  /* 远程图片卡片：连接被墙时 error 要等很久才触发，所以自己掐 12s 超时，重试一次后兜底 */
+  function makeRemoteCard(img) {
+    var raw = img.getAttribute('src') || '';
+    var attempts = 0, settled = true, timer = null, bound = false;
+
+    function stop() { if (timer) { clearTimeout(timer); timer = null; } }
+
+    function attempt() {
+      settled = false;
+      var sep = raw.indexOf('?') > -1 ? '&' : '?';
+      img.src = raw + sep + '_r=' + Date.now();
+      stop();
+      timer = setTimeout(fail, CARD_TIMEOUT);
+    }
+
+    function ok() { if (settled) return; settled = true; stop(); cardLoaded(img); }
+
+    function fail() {
+      if (settled) return;
+      settled = true; stop();
+      if (attempts < 1) { attempts += 1; attempt(); return; }
+      cardFailed(img);
+    }
+
+    return function load() {
+      if (!bound) {
+        bound = true;
+        img.addEventListener('load', ok);
+        img.addEventListener('error', fail);
+      }
+      cardReset(img);
+      attempts = 0;
+      attempt();
+    };
+  }
+
+  /* 本地绘制的卡片：取回数据 → 生成 SVG → 作为 data URI 塞回同一个 img（复用骨架屏与兜底） */
+  function makeLocalCard(img, render) {
+    var busy = false;
+    return function load() {
+      if (busy) return;
+      busy = true;
+      cardReset(img);
+      render()
+        .then(function (svg) {
+          if (!svg) { cardFailed(img); return; }
+          img.addEventListener('load', function () { cardLoaded(img); }, { once: true });
+          img.addEventListener('error', function () { cardFailed(img); }, { once: true });
+          img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+        })
+        ['catch'](function () { cardFailed(img); })
+        ['then'](function () { busy = false; });
+    };
+  }
+
   function initCards() {
-    var imgs = document.querySelectorAll('.card__media img');
-
-    Array.prototype.forEach.call(imgs, function (img) {
-      var box = img.closest('.card__media');
-      var fallback = box ? box.querySelector('.card__fallback') : null;
-
-      img.addEventListener('load', function () {
-        if (box) box.classList.add('is-loaded');
-      });
-
-      img.addEventListener('error', function () {
-        if (img.dataset.retry !== '1') {
-          img.dataset.retry = '1';
-          setTimeout(function () {
-            var raw = img.getAttribute('src').split('&_r=')[0];
-            img.src = raw + (raw.indexOf('?') > -1 ? '&' : '?') + '_r=' + Date.now();
-          }, 1200);
-          return;
-        }
-        if (box) box.classList.add('is-error');
-        img.style.display = 'none';
-        if (fallback) fallback.hidden = false;
-      });
-
-      // 已经缓存完成的图片不会再触发 load
-      if (img.complete && img.naturalWidth > 0 && box) box.classList.add('is-loaded');
+    var imgs = Array.prototype.slice.call(document.querySelectorAll('.card__media img'));
+    var reloaders = imgs.map(function (img) {
+      var kind = img.getAttribute('data-card');
+      if (kind === 'langs')    return makeLocalCard(img, renderTopLangs);
+      if (kind === 'calendar') return makeLocalCard(img, renderCalendar);
+      if (kind === 'activity') return makeLocalCard(img, renderActivity);
+      return makeRemoteCard(img);
     });
+
+    reloaders.forEach(function (r) { r(); });
 
     var btn = document.getElementById('reload-cards');
     if (btn) {
       btn.addEventListener('click', function () {
-        Array.prototype.forEach.call(imgs, function (img) {
-          var box = img.closest('.card__media');
-          var fallback = box ? box.querySelector('.card__fallback') : null;
-          if (box) box.classList.remove('is-loaded', 'is-error');
-          if (fallback) fallback.hidden = true;
-          img.style.display = '';
-          delete img.dataset.retry;
-          var raw = img.getAttribute('src').split('&_r=')[0].split('?_r=')[0];
-          img.src = raw + (raw.indexOf('?') > -1 ? '&' : '?') + '_r=' + Date.now();
-        });
+        reloaders.forEach(function (r) { r(); });
       });
     }
+  }
+
+  /* ---------------- 5. 语言统计 / 贡献分布 / 31 天贡献：本地画 SVG ---------------- */
+
+  function fetchJSON(url) {
+    var key = 'gh-card:' + url;
+    try {
+      var hit = localStorage.getItem(key);
+      if (hit) {
+        var c = JSON.parse(hit);
+        if (c && Date.now() - c.t < CACHE_TTL) return Promise.resolve(c.v);
+      }
+    } catch (e) { /* 隐私模式取不到 localStorage，忽略即可 */ }
+
+    return Promise.race([
+      fetch(url).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      }),
+      new Promise(function (_, reject) {
+        setTimeout(function () { reject(new Error('timeout')); }, CARD_TIMEOUT);
+      })
+    ]).then(function (v) {
+      try { localStorage.setItem(key, JSON.stringify({ t: Date.now(), v: v })); } catch (e) {}
+      return v;
+    });
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;').replace(/'/g, '&apos;').replace(/"/g, '&quot;');
+  }
+
+  function truncate(s, n) {
+    s = String(s);
+    return s.length > n ? s.slice(0, n - 1) + '…' : s;
+  }
+
+  function niceMax(v) {
+    if (!(v > 0)) return 1;
+    var e = Math.pow(10, Math.floor(Math.log(v) / Math.LN10));
+    var m = v / e;
+    return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 5 ? 5 : 10) * e;
+  }
+
+  function formatBytes(b) {
+    if (b >= 1024 * 1024) return (b / 1024 / 1024).toFixed(2) + ' MB';
+    if (b >= 1024) return (b / 1024).toFixed(1) + ' kB';
+    return b + ' B';
+  }
+
+  // 各语言官方配色（取自 github-linguist），未收录的按名称散列出一个稳定颜色
+  var LANG_COLORS = {
+    JavaScript: '#f1e05a', TypeScript: '#3178c6', Vue: '#41b883', HTML: '#e34c26',
+    CSS: '#563d7c', SCSS: '#c6538c', Less: '#1d365d', Stylus: '#ff6347',
+    Python: '#3572a5', Java: '#b07219', Kotlin: '#a97bff', Swift: '#f05138',
+    Go: '#00add8', Rust: '#dea584', C: '#555555', 'C++': '#f34b7d', 'C#': '#178600',
+    PHP: '#4f5d95', Ruby: '#701516', Shell: '#89e051', PowerShell: '#012456',
+    Dart: '#00b4ab', 'Objective-C': '#438eff', Lua: '#000080', Perl: '#0298c3',
+    R: '#198ce7', Scala: '#c22d40', Haskell: '#5e5086', Elixir: '#6e4a7e',
+    Astro: '#ff5a03', Svelte: '#ff3e00', Markdown: '#083fa1', Dockerfile: '#384d54',
+    'Jupyter Notebook': '#da5b0b', EJS: '#a91e50', Pug: '#a86454', Zig: '#ec915c'
+  };
+
+  function langColor(name) {
+    if (LANG_COLORS[name]) return LANG_COLORS[name];
+    var h = 0;
+    for (var i = 0; i < name.length; i++) { h = (h * 31 + name.charCodeAt(i)) % 360; }
+    return 'hsl(' + h + ',50%,62%)';
+  }
+
+  function svgWrap(w, h, body) {
+    return "<svg xmlns='http://www.w3.org/2000/svg' width='" + w + "' height='" + h +
+           "' viewBox='0 0 " + w + " " + h + "'" +
+           " font-family=\"'Segoe UI',system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif\">" +
+           body + '</svg>';
+  }
+
+  /* 语言统计：头像风格——顶部 N Languages、Most used languages、堆叠条、双列列表 */
+  function langsSvg(list, totalBytes, repoCount) {
+    var W = 900, H = 240, padX = 44, padY = 22, out = [];
+    var top = list.slice(0, 6);
+
+    // 左上角气泡图标 + N Languages
+    out.push("<g fill='#f4568f'>");
+    out.push("<path d='M8 6h20v14h-5l-5 4v-4H8V6zM13 11.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm5 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm5 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z'/>");
+    out.push("</g>");
+    out.push("<text x='40' y='21' font-size='16' font-weight='700' fill='#f4568f'>" +
+             list.length + " Languages</text>");
+
+    // 居中标题与描述
+    out.push("<text x='" + (W / 2) + "' y='54' text-anchor='middle' font-size='17' font-weight='600' fill='#ffffff'>Most used languages</text>");
+    var desc = "estimation from " + formatBytes(totalBytes) + " of code across " + repoCount + " repositories";
+    out.push("<text x='" + (W / 2) + "' y='78' text-anchor='middle' font-size='12' fill='#a99bc0'>" + esc(desc) + "</text>");
+
+    // 堆叠条
+    var barY = 98, barH = 14, barW = W - padX * 2, x = padX;
+    top.forEach(function (it) {
+      var w = barW * it.bytes / totalBytes;
+      out.push("<rect x='" + x.toFixed(1) + "' y='" + barY + "' width='" +
+               Math.max(1, w).toFixed(1) + "' height='" + barH + "' rx='4' fill='" + langColor(it.name) + "'/>");
+      x += w;
+    });
+    if (x < padX + barW - 0.5) {
+      out.push("<rect x='" + x.toFixed(1) + "' y='" + barY + "' width='" +
+               (padX + barW - x).toFixed(1) + "' height='" + barH + "' rx='4' fill='#2a1f38'/>");
+    }
+
+    // 双列语言列表
+    var perCol = Math.ceil(top.length / 2);
+    var colW = (W - padX * 2) / 2 - 24;
+    top.forEach(function (it, i) {
+      var col = i < perCol ? 0 : 1;
+      var row = i < perCol ? i : i - perCol;
+      var cx = padX + col * (colW + 32);
+      var cy = 142 + row * 32;
+      var pct = totalBytes > 0 ? (it.bytes / totalBytes * 100).toFixed(1) + '%' : '0%';
+      out.push("<circle cx='" + (cx + 6) + "' cy='" + (cy - 5) + "' r='5' fill='" + langColor(it.name) + "'/>");
+      out.push("<text x='" + (cx + 20) + "' y='" + cy + "' font-size='13' font-weight='500' fill='#c4b8d6'>" + esc(it.name) + "</text>");
+      out.push("<text x='" + (cx + 160) + "' y='" + cy + "' font-size='12' fill='#a99bc0'>" + pct + "</text>");
+      out.push("<text x='" + (cx + colW - 4) + "' y='" + cy + "' text-anchor='end' font-size='12' fill='#6b5c82'>" + formatBytes(it.bytes) + "</text>");
+    });
+
+    return svgWrap(W, H, out.join(''));
+  }
+
+  function renderTopLangs() {
+    var user = CFG.username;
+    if (!user) return Promise.resolve(null);
+    return fetchJSON('https://api.github.com/users/' + encodeURIComponent(user) +
+                     '/repos?per_page=100&sort=pushed')
+      .then(function (repos) {
+        if (!repos || !repos.length) return null;
+        var nonForks = repos.filter(function (r) { return r && !r.fork; });
+        if (!nonForks.length) return null;
+        return Promise.all(nonForks.map(function (r) {
+          return fetchJSON('https://api.github.com/repos/' + encodeURIComponent(user) + '/' +
+                           encodeURIComponent(r.name) + '/languages')
+            .then(function (langs) { return { repo: r, langs: langs }; })
+            .catch(function () { return { repo: r, langs: {} }; });
+        }));
+      })
+      .then(function (results) {
+        if (!results || !results.length) return null;
+        var by = {}, totalBytes = 0, repoCount = 0;
+        results.forEach(function (item) {
+          var langs = item.langs;
+          if (!langs || !Object.keys(langs).length) return;
+          repoCount++;
+          Object.keys(langs).forEach(function (k) {
+            var v = langs[k] || 0;
+            by[k] = (by[k] || 0) + v;
+            totalBytes += v;
+          });
+        });
+        var list = Object.keys(by).map(function (k) { return { name: k, bytes: by[k] }; })
+          .sort(function (a, b) { return b.bytes - a.bytes; });
+        if (!list.length) return null;
+        return langsSvg(list, totalBytes, repoCount);
+      });
+  }
+
+  /* 最近 31 天贡献：面积 + 折线，尺寸对齐 .card--graph 的 900 / 280 */
+  function activitySvg(days) {
+    var n = days.length;
+    if (n < 2) return null;
+
+    var W = 900, H = 280, L = 56, R = 18, T = 26, B = 36, i;
+    var pw = W - L - R, ph = H - T - B, base = T + ph;
+    var counts = days.map(function (d) { return (d && d.count) || 0; });
+    var sum = 0, peak = 0;
+    counts.forEach(function (c) { sum += c; if (c > peak) peak = c; });
+    var max = niceMax(peak);
+
+    function X(k) { return L + (k * pw) / (n - 1); }
+    function Y(v) { return T + ph * (1 - v / max); }
+
+    var out = ["<defs><linearGradient id='ag' x1='0' y1='0' x2='0' y2='1'>" +
+               "<stop offset='0%' stop-color='#f4568f' stop-opacity='.45'/>" +
+               "<stop offset='100%' stop-color='#f4568f' stop-opacity='0'/>" +
+               '</linearGradient></defs>'];
+
+    [0, .25, .5, .75, 1].forEach(function (f) {
+      var y = Y(max * f);
+      out.push("<line x1='" + L + "' y1='" + y.toFixed(1) + "' x2='" + (L + pw) +
+               "' y2='" + y.toFixed(1) + "' stroke='#2a1f38' stroke-width='1'/>");
+      out.push("<text x='" + (L - 10) + "' y='" + (y + 4).toFixed(1) +
+               "' text-anchor='end' font-size='11' fill='#6b5c82'>" + Math.round(max * f) + '</text>');
+    });
+
+    var line = counts.map(function (v, k) {
+      return (k ? 'L' : 'M') + X(k).toFixed(1) + ' ' + Y(v).toFixed(1);
+    }).join(' ');
+
+    out.push("<path d='" + line + ' L ' + X(n - 1).toFixed(1) + ' ' + base +
+             ' L ' + X(0).toFixed(1) + ' ' + base + " Z' fill='url(#ag)'/>");
+    out.push("<path d='" + line + "' fill='none' stroke='#f4568f' stroke-width='2' " +
+             "stroke-linejoin='round' stroke-linecap='round'/>");
+    counts.forEach(function (v, k) {
+      if (v > 0) {
+        out.push("<circle cx='" + X(k).toFixed(1) + "' cy='" + Y(v).toFixed(1) +
+                 "' r='3' fill='#ffa8c8'/>");
+      }
+    });
+
+    var step = Math.max(1, Math.ceil(n / 6)), idxs = [];
+    for (i = 0; i < n; i += step) idxs.push(i);
+    if (idxs[idxs.length - 1] !== n - 1) idxs.push(n - 1);
+    idxs.forEach(function (k) {
+      out.push("<text x='" + X(k).toFixed(1) + "' y='" + (base + 20) +
+               "' text-anchor='" + (k === n - 1 ? 'end' : 'middle') +
+               "' font-size='11' fill='#6b5c82'>" +
+               esc(String(days[k].date).slice(5)) + '</text>');
+    });
+
+    out.push("<text x='" + L + "' y='16' font-size='12' fill='#a99bc0'>最近 " + n +
+             ' 天共 ' + sum + ' 次贡献 · 单日峰值 ' + peak + '</text>');
+
+    return svgWrap(W, H, out.join(''));
+  }
+
+  /* GitHub 风格贡献分布热力图（最近 52 周），尺寸对齐 .card--calendar 的 640 / 160 */
+  var CAL_COLORS = ['#2a1f38', '#5c2a42', '#8d3b5d', '#c44778', '#f4568f', '#ff7eb0'];
+  function calendarColor(c) {
+    if (!c) return CAL_COLORS[0];
+    if (c < 2) return CAL_COLORS[1];
+    if (c < 4) return CAL_COLORS[2];
+    if (c < 7) return CAL_COLORS[3];
+    if (c < 12) return CAL_COLORS[4];
+    return CAL_COLORS[5];
+  }
+
+  function buildWeeks(days) {
+    var weeks = [];
+    if (!days || !days.length) return weeks;
+    var start = new Date(days[0].date + 'T00:00:00Z');
+    start.setUTCDate(start.getUTCDate() - start.getUTCDay());
+    var end = new Date(days[days.length - 1].date + 'T00:00:00Z');
+    end.setUTCDate(end.getUTCDate() + (6 - end.getUTCDay()));
+    var dayMap = {};
+    days.forEach(function (d) { dayMap[d.date] = d.count; });
+    var cur = new Date(start), w = [];
+    while (cur <= end) {
+      var iso = cur.toISOString().slice(0, 10);
+      w.push({ date: iso, count: dayMap[iso] || 0 });
+      if (cur.getUTCDay() === 6) { weeks.push(w); w = []; }
+      cur.setUTCDate(cur.getUTCDate() + 1);
+    }
+    if (w.length) weeks.push(w);
+    return weeks;
+  }
+
+  function calendarSvg(all) {
+    var days = all.slice(-365);
+    var weeks = buildWeeks(days);
+    if (!weeks.length) return null;
+
+    var W = 640, H = 160;
+    var cell = 9, gap = 2, left = 42, top = 32;
+    var colW = cell + gap, rowH = cell + gap;
+    var out = [];
+    var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+    // 月份标签
+    weeks.forEach(function (week, wi) {
+      week.forEach(function (d) {
+        var date = new Date(d.date + 'T00:00:00Z');
+        if (date.getUTCDate() === 1) {
+          out.push("<text x='" + (left + wi * colW) + "' y='" + (top - 10) +
+                   "' font-size='10' fill='#6b5c82'>" + months[date.getUTCMonth()] + "</text>");
+        }
+      });
+    });
+
+    // 星期标签
+    var wd = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    [1, 3, 5].forEach(function (di) {
+      out.push("<text x='" + (left - 8) + "' y='" + (top + di * rowH + cell - 1) +
+               "' text-anchor='end' font-size='9' fill='#6b5c82'>" + wd[di] + "</text>");
+    });
+
+    // 格子
+    weeks.forEach(function (week, wi) {
+      week.forEach(function (d, di) {
+        var x = left + wi * colW;
+        var y = top + di * rowH;
+        var title = d.date + ': ' + d.count + (d.count === 1 ? ' contribution' : ' contributions');
+        out.push("<rect x='" + x + "' y='" + y + "' width='" + cell + "' height='" + cell +
+                 "' rx='2' fill='" + calendarColor(d.count) + "'><title>" + esc(title) + "</title></rect>");
+      });
+    });
+
+    // 图例
+    var legendX = W - 132;
+    out.push("<text x='" + legendX + "' y='" + (H - 10) + "' font-size='10' fill='#6b5c82'>Less</text>");
+    for (var i = 0; i < 5; i++) {
+      out.push("<rect x='" + (legendX + 34 + i * 16) + "' y='" + (H - 19) +
+               "' width='12' height='12' rx='2' fill='" + CAL_COLORS[i] + "'/>");
+    }
+    out.push("<text x='" + (W - 8) + "' y='" + (H - 10) + "' text-anchor='end' font-size='10' fill='#6b5c82'>More</text>");
+
+    return svgWrap(W, H, out.join(''));
+  }
+
+  function renderCalendar() {
+    var user = CFG.username;
+    if (!user) return Promise.resolve(null);
+    return fetchJSON('https://github-contributions-api.jogruber.de/v4/' +
+                     encodeURIComponent(user) + '?y=last')
+      .then(function (data) {
+        var all = (data && data.contributions) || [];
+        return all.length ? calendarSvg(all) : null;
+      });
+  }
+
+  function renderActivity() {
+    var user = CFG.username;
+    if (!user) return Promise.resolve(null);
+    return fetchJSON('https://github-contributions-api.jogruber.de/v4/' +
+                     encodeURIComponent(user) + '?y=last')
+      .then(function (data) {
+        var all = (data && data.contributions) || [];
+        return all.length ? activitySvg(all.slice(-31)) : null;
+      });
   }
 
   function init() {
